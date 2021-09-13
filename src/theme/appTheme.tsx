@@ -24,9 +24,10 @@ export const globalStyles = StyleSheet.create({
   boton: {
     height: 80,
     width: 80,
-    backgroundColor: 'gray',
+    backgroundColor: '#2D2D2D',
     borderRadius: 100,
     justifyContent: 'center',
+    marginHorizontal: 10,
   },
   botonTexto: {
     textAlign: 'center',
@@ -34,5 +35,11 @@ export const globalStyles = StyleSheet.create({
     fontSize: 30,
     color: 'white',
     fontWeight: 'bold',
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginBottom: 18,
+    paddingHorizontal: 5,
   },
 });
